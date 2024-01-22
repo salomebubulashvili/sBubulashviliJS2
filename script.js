@@ -36,11 +36,12 @@ for (let i = 0; i < array2.length; i++) {
     }
 }
 
-for ( item of array2) {
-    if( item ===5) {
+for (let item of array2) {
+    if( item == 5) {
         console.log('არის')
         break;
     }
+    console.log(item)
 }
 
 // 4
